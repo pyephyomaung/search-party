@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="@string/pref_key_packs_default"
+        android:title="@string/pref_title_packs_default"
+        android:defaultValue="true"
+        android:enabled="false"/>
+    <CheckBoxPreference
+        android:key="@string/pref_key_packs_pop"
+        android:title="@string/pref_title_packs_pop"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="@string/pref_key_packs_celeb"
+        android:title="@string/pref_title_packs_celeb"
+        android:defaultValue="false" />
+</PreferenceScreen>

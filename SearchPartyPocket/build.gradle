@@ -1,0 +1,48 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.6.+'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion '17.0.0'
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 16
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+        }
+
+        myConfig {
+            storeFile file("other.jks")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        foo {
+            debuggable true
+            jniDebugBuild true
+            signingConfig signingConfigs.myConfig
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:13.0.+'
+}
