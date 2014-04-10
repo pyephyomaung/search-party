@@ -19,13 +19,13 @@
   <table>
     <tr>
       <td>
-        <img src="https://lh6.ggpht.com/LLWIf0yIHZyhx-VR83qd2exaevenOD0DzcraZ7q8wDYeIpDp4aJPxpuU6dDVZ5GeFw=h400"/>
+        <img src="https://lh6.ggpht.com/LLWIf0yIHZyhx-VR83qd2exaevenOD0DzcraZ7q8wDYeIpDp4aJPxpuU6dDVZ5GeFw=h350"/>
       </td>
       <td>
-        <img src="https://lh3.ggpht.com/xKeaim58nI-gVAk5sw0yQk7LKZjuMgA67W4R6FZxMLPViuQozxzDU9pcqp3W_5m2vqU=h400"/>
+        <img src="https://lh3.ggpht.com/xKeaim58nI-gVAk5sw0yQk7LKZjuMgA67W4R6FZxMLPViuQozxzDU9pcqp3W_5m2vqU=h350"/>
       </td>
       <td>
-        <img src="https://lh5.ggpht.com/nSdFToXzRICh6UmhBueAi36vaNw6ZN9kvbhv8qfS70PD7u9Ce1bpc3dyrw_myGcZfVc=h400"/>
+        <img src="https://lh5.ggpht.com/nSdFToXzRICh6UmhBueAi36vaNw6ZN9kvbhv8qfS70PD7u9Ce1bpc3dyrw_myGcZfVc=h350"/>
       </td>
     </tr>
   </table>
